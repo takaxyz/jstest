@@ -190,6 +190,7 @@ DndSimulator = {
         /* get the coordinates of both elements, note that
         left refers to X, and top to Y */
         var sourceCoordinates = sourceElement.getBoundingClientRect();
+        console.log(sourceCoordinates);
         var targetCoordinates = targetElement.getBoundingClientRect();
 
         /* simulate a mouse down event on the coordinates
