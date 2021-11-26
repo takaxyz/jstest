@@ -178,6 +178,7 @@ DndSimulator = {
      *                        dragged to.
      */
     simulate: function(sourceElement, targetElement) {
+alert('aaaa');
         /* if strings are specified, assume they are CSS selectors */
         if(typeof sourceElement == "string") {
             sourceElement = document.querySelector(sourceElement);
